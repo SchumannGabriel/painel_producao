@@ -4,7 +4,7 @@ Painel em tempo real de produção por setor, conectado à coleção `producao_a
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - **KPIs no topo**: Meta do Dia e Produção do Dia, cada um com gráfico de rosca mostrando % da meta
 - **Seletor de setores**: tabs dinâmicos buscados do Firebase, filtrados por hoje
@@ -21,7 +21,7 @@ Painel em tempo real de produção por setor, conectado à coleção `producao_a
 
 ---
 
-## 🚀 Instalação
+##  Instalação
 
 ### 1. Pré-requisitos
 - Flutter SDK 3.x instalado
@@ -59,12 +59,12 @@ flutter run -d windows  # ou macos / linux
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 lib/
 ├── main.dart                        # Entry point + init Firebase
-├── firebase_options.dart            # ⚠️ Gerado pelo flutterfire configure
+├── firebase_options.dart            #  Gerado pelo flutterfire configure
 ├── app_theme.dart                   # Design tokens (cores, tipografia)
 ├── models/
 │   └── producao_model.dart          # ProducaoAtiva, Snapshot, ResumoSetor
@@ -80,7 +80,7 @@ lib/
 
 ---
 
-## 🔥 Estrutura Firestore esperada
+##  Estrutura Firestore esperada
 
 ### Coleção: `producao_ativa`
 
@@ -118,7 +118,7 @@ e a coluna é `09:00`, ele ainda não aparece — só aparece na coluna `10h`.
 
 ---
 
-## 🎨 Cores de Status
+##  Cores de Status
 
 | % da Meta | Cor |
 |-----------|-----|
@@ -129,7 +129,7 @@ e a coluna é `09:00`, ele ainda não aparece — só aparece na coluna `10h`.
 
 ---
 
-## 🔒 Regras Firestore recomendadas
+##  Regras Firestore recomendadas
 
 ```javascript
 rules_version = '2';
@@ -145,7 +145,7 @@ service cloud.firestore {
 
 ---
 
-## 📦 Dependências
+##  Dependências
 
 ```yaml
 firebase_core: ^2.24.2
