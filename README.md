@@ -15,6 +15,23 @@ Exibe o andamento da produção do dia por setor e por funcionário, com metas, 
 - Relógio em tempo real e indicador de atualização ao vivo
 - Atualização automática via streams do Firestore
 
+## Screenshots
+
+### Painel de Produção
+Visão em tempo real da produção do dia, com KPIs, gráfico de meta e tabela por funcionário e por hora. Fica exibido continuamente na TV do setor.
+
+<img src="docs/screenshots/tela_1_1.PNG" width="700"/>
+
+### Acesso Restrito (Login)
+Tela de login exibida apenas quando o gestor deseja alterar as metas dos funcionários, protegendo a edição contra acesso não autorizado.
+
+<img src="docs/screenshots/tela_1_2.PNG" width="500"/>
+
+### Metas do Dia
+Após autenticação, o gestor define a meta individual de cada funcionário. Alterações são refletidas em tempo real no painel.
+
+<img src="docs/screenshots/tela_1_4.PNG" width="700"/>
+
 ## Tecnologias
 
 - Flutter
